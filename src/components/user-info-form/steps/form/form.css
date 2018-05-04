@@ -1,0 +1,30 @@
+.steps-form__field-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column; }
+  @media only screen and (min-width: 720px) {
+    .steps-form__field-row {
+      flex-direction: row;
+      margin-bottom: 1rem; } }
+
+.step-input-field {
+  width: 100%; }
+  .step-input-field .input-field {
+    border: 1px solid #d8e1e6; }
+  @media only screen and (min-width: 720px) {
+    .step-input-field {
+      width: 48%; } }
+  .step-input-field .ui.selection.dropdown {
+    width: 100%; }
+    @media only screen and (min-width: 720px) {
+      .step-input-field .ui.selection.dropdown {
+        height: 48px;
+        display: flex;
+        align-items: center; }
+        .step-input-field .ui.selection.dropdown .text {
+          line-height: 16px; }
+        .step-input-field .ui.selection.dropdown > .dropdown.icon {
+          height: 100%; } }
+
+/*# sourceMappingURL=form.css.map */

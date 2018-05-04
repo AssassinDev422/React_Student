@@ -1,0 +1,64 @@
+.scholarships-table-wrapper {
+  max-height: 1000px;
+  overflow-y: scroll;
+  margin-bottom: 30px; }
+
+.scholarships-table.ui.celled.table thead tr th {
+  color: #b4b4b4; }
+.scholarships-table.ui.celled.table thead tr th, .scholarships-table.ui.celled.table tbody tr td {
+  border-right: none;
+  border-left: none;
+  background-color: white; }
+@media only screen and (min-width: 720px) {
+  .scholarships-table.ui.celled.table thead tr th:first-of-type, .scholarships-table.ui.celled.table tbody tr td:first-of-type {
+    width: 170px; }
+  .scholarships-table.ui.celled.table thead tr th:nth-of-type(2), .scholarships-table.ui.celled.table tbody tr td:nth-of-type(2) {
+    width: 130px; }
+  .scholarships-table.ui.celled.table thead tr th:nth-of-type(3), .scholarships-table.ui.celled.table tbody tr td:nth-of-type(3) {
+    width: 350px; }
+  .scholarships-table.ui.celled.table thead tr th:nth-of-type(5), .scholarships-table.ui.celled.table tbody tr td:nth-of-type(5) {
+    width: 170px; } }
+
+@media only screen and (max-width: 720px) {
+  .scholarships-table.ui.celled.table {
+    /*td:nth-of-type(6):before { content: "DESCRIPTION"; }*/ }
+    .scholarships-table.ui.celled.table table, .scholarships-table.ui.celled.table thead, .scholarships-table.ui.celled.table tbody, .scholarships-table.ui.celled.table th, .scholarships-table.ui.celled.table td, .scholarships-table.ui.celled.table tr {
+      display: block !important; }
+    .scholarships-table.ui.celled.table thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px; }
+    .scholarships-table.ui.celled.table td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50% !important;
+      padding-right: 5px !important;
+      min-height: 22px !important;
+      font-weight: normal !important; }
+    .scholarships-table.ui.celled.table td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap; }
+    .scholarships-table.ui.celled.table td:nth-of-type(1):before {
+      content: "CATEGORY"; }
+    .scholarships-table.ui.celled.table td:nth-of-type(2):before {
+      content: "SUB CATEGORY"; }
+    .scholarships-table.ui.celled.table td:nth-of-type(3):before {
+      content: "SCHOLARSHIP NAME"; }
+    .scholarships-table.ui.celled.table td:nth-of-type(4):before {
+      content: "AMOUNT"; }
+    .scholarships-table.ui.celled.table td:nth-of-type(5):before {
+      content: "DUE DATE"; }
+    .scholarships-table.ui.celled.table td:nth-of-type(6):before {
+      content: "LINK"; }
+    .scholarships-table.ui.celled.table a {
+      text-decoration: underline; } }
+
+/*# sourceMappingURL=scholarships-table.css.map */

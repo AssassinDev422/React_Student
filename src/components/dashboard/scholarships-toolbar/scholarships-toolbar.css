@@ -1,0 +1,15 @@
+.scholarships-toolbar {
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (max-width: 720px) {
+    .scholarships-toolbar {
+      flex-direction: column; } }
+  .scholarships-toolbar .ui.selection.dropdown {
+    margin-bottom: 1rem; }
+    @media only screen and (min-width: 720px) {
+      .scholarships-toolbar .ui.selection.dropdown {
+        margin-bottom: 2rem; } }
+  .scholarships-toolbar .filter-options .ui.selection.dropdown:first-of-type {
+    margin-right: 2rem; }
+
+/*# sourceMappingURL=scholarships-toolbar.css.map */

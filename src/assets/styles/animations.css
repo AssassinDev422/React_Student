@@ -1,0 +1,9 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*# sourceMappingURL=animations.css.map */

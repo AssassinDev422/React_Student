@@ -1,0 +1,23 @@
+.banner-footer-item i {
+  line-height: 52px;
+  position: relative;
+  top: -2px;
+  margin-right: 0.5rem; }
+
+.banner-footer-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem; }
+  @media only screen and (min-width: 720px) {
+    .banner-footer-item {
+      height: 52px;
+      line-height: 52px;
+      font-size: 1.6rem; } }
+
+.banner-footer-item__text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=banner-footer-item.css.map */

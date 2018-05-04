@@ -1,0 +1,77 @@
+.profile-image {
+  border: 1px solid #fff;
+  background: green;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 4px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.profile-image__default-user {
+  background-image: url(../../../assets/images/user_placeholder.png); }
+
+.profile-button-section {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  line-height: 40px; }
+  @media only screen and (max-width: 720px) {
+    .profile-button-section {
+      padding-left: 10px;
+      width: 100%; } }
+  .profile-button-section .profile-button {
+    display: flex;
+    align-items: center; }
+    .profile-button-section .profile-button .user-name {
+      font-size: 16px; }
+    .profile-button-section .profile-button .profile-image {
+      border: 1px solid #fff;
+      background: green;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-left: 4px;
+      background-size: contain;
+      background-repeat: no-repeat; }
+    .profile-button-section .profile-button .profile-image__default-user {
+      background-image: url(../../../assets/images/user_placeholder.png); }
+  .profile-button-section ul.profile-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    visibility: hidden;
+    padding: 0 10px;
+    background: white;
+    width: 200px;
+    border: 1px solid #dce0e0; }
+    .profile-button-section ul.profile-links.show {
+      visibility: visible;
+      z-index: 2; }
+    @media only screen and (max-width: 720px) {
+      .profile-button-section ul.profile-links {
+        width: 100%;
+        right: auto;
+        left: 0;
+        border: none;
+        visibility: visible !important;
+        z-index: 2 !important; } }
+    .profile-button-section ul.profile-links li {
+      list-style-type: none;
+      color: black;
+      font-size: 16px;
+      height: 54px;
+      line-height: 54px;
+      padding-left: 0;
+      border-bottom: 1px solid #eee; }
+      .profile-button-section ul.profile-links li .text-content {
+        position: relative;
+        left: 0;
+        transition: left 0.3s ease-out; }
+      .profile-button-section ul.profile-links li:hover .text-content {
+        left: 5px; }
+      @media only screen and (max-width: 720px) {
+        .profile-button-section ul.profile-links li {
+          width: 100%; } }
+
+/*# sourceMappingURL=profile-button.css.map */

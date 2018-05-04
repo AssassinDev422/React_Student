@@ -1,0 +1,60 @@
+.font-secondary, .auth-form__title {
+  font-family: 'Roboto Slab', Roboto, sans-serif; }
+
+.text-large, .text-xlarge, .text-xxlarge, .text-xxxlarge {
+  font-family: 'Roboto Slab', Roboto, sans-serif;
+  font-weight: 400; }
+
+.text-small, .text-gray-title {
+  font-size: 1.4rem; }
+
+.text-normal {
+  font-size: 1.6rem; }
+
+.text-medium {
+  font-size: 1.8rem; }
+
+.text-large {
+  font-size: 2.2rem; }
+
+.text-xlarge {
+  font-size: 2.6rem; }
+
+.text-xxlarge {
+  font-size: 3rem; }
+
+.text-xxxlarge {
+  font-size: 3.4rem; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-upper, .text-gray-title {
+  text-transform: uppercase; }
+
+.text-error {
+  color: #e54136; }
+
+.text-gray, .text-gray-title {
+  color: #a5a9ac; }
+
+.auth-form__title {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #d8e1e6;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 2.2rem; }
+
+@media only screen and (min-width: 720px) {
+  .auth-form__title {
+    height: 72px;
+    line-height: 72px; } }
+
+/*# sourceMappingURL=auth-form-title.css.map */

@@ -1,0 +1,28 @@
+.getting-started-form {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%; }
+  @media only screen and (min-width: 720px) {
+    .getting-started-form {
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: auto; } }
+  .getting-started-form .input-field-container {
+    width: 100%;
+    margin-bottom: 20px; }
+    @media only screen and (min-width: 720px) {
+      .getting-started-form .input-field-container {
+        margin-right: 20px;
+        width: 368px;
+        margin-bottom: 0; } }
+  .getting-started-form button {
+    width: 100%; }
+    @media only screen and (min-width: 720px) {
+      .getting-started-form button {
+        width: 215px; } }
+
+/*# sourceMappingURL=getting-started-form.css.map */

@@ -1,0 +1,39 @@
+@media only screen and (min-width: 720px) {
+  .opportunity-for-all {
+    height: 676px;
+    width: 100%;
+    color: white;
+    position: relative; } }
+
+.opportunity-for-all .image {
+  display: none; }
+  @media only screen and (min-width: 720px) {
+    .opportunity-for-all .image {
+      display: block;
+      background-image: url("../../../assets/images/Opportunity-for-all-BG.jpg");
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      background-repeat: no-repeat;
+      background-size: cover; } }
+
+.opportunity-for-all__text-section .content {
+  margin: 25px 0; }
+
+.opportunity-for-all__text-section {
+  color: #013e6a;
+  text-align: center; }
+  @media only screen and (min-width: 720px) {
+    .opportunity-for-all__text-section {
+      background-color: rgba(0, 0, 0, 0.4);
+      height: 495px;
+      width: 487px;
+      position: absolute;
+      top: 100px;
+      right: 288px;
+      padding: 40px;
+      color: white;
+      text-align: left; } }
+
+/*# sourceMappingURL=opportunity-for-all.css.map */

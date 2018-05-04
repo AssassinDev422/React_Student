@@ -1,0 +1,11 @@
+.card-with-links {
+  padding: 20px;
+  line-height: 1.3; }
+
+.card-with-links__link {
+  display: inline-block;
+  margin-top: 10px; }
+  .card-with-links__link:first-of-type {
+    margin-top: 0; }
+
+/*# sourceMappingURL=card-with-links.css.map */

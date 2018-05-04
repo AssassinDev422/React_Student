@@ -1,0 +1,64 @@
+.page-header {
+  border: 1px solid #e6ebee;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  flex-direction: column;
+  height: 50px; }
+  .page-header .app-logo {
+    height: 40px;
+    cursor: pointer; }
+  @media only screen and (min-width: 720px) {
+    .page-header {
+      padding-left: 50px;
+      padding-right: 50px;
+      flex-direction: row;
+      height: 80px; } }
+  @media only screen and (max-width: 720px) {
+    .page-header .left {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; } }
+  .page-header .left .fa-bars {
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    margin-right: 5px;
+    cursor: pointer; }
+    @media only screen and (min-width: 720px) {
+      .page-header .left .fa-bars {
+        display: none; } }
+  .page-header .right-links {
+    font-weight: normal; }
+    @media only screen and (max-width: 720px) {
+      .page-header .right-links {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        border-top: 1px solid #eee;
+        z-index: 3; }
+        .page-header .right-links li {
+          border-bottom: 1px solid #eee;
+          height: 50px;
+          line-height: 50px;
+          background: white;
+          font-size: 1.6rem; }
+          .page-header .right-links li button {
+            text-align: left;
+            width: 100%;
+            background: white;
+            color: black;
+            border-radius: 0;
+            padding-left: 10px; } }
+    @media only screen and (min-width: 720px) {
+      .page-header .right-links {
+        display: flex; } }
+
+.page-header .right-links .sw-button:first-of-type {
+  margin-right: 5px; }
+
+/*# sourceMappingURL=page-header.css.map */

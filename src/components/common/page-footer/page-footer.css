@@ -1,0 +1,87 @@
+.landing-footer {
+  background-color: #013e6a;
+  color: #ffffff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 17px; }
+  @media only screen and (min-width: 720px) {
+    .landing-footer {
+      padding-top: 88px; } }
+  .landing-footer a {
+    cursor: pointer;
+    transition: 0.3s color;
+    color: #fff; }
+    .landing-footer a:hover {
+      color: rgba(255, 255, 255, 0.6); }
+
+.landing-footer-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-direction: column; }
+  @media only screen and (min-width: 720px) {
+    .landing-footer-columns {
+      flex-direction: row;
+      margin-bottom: 70px; } }
+
+.landing-footer__column-title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 3rem; }
+  @media only screen and (min-width: 720px) {
+    .landing-footer__column-title {
+      font-size: 1.7rem; } }
+
+.text-with-icon {
+  display: flex; }
+
+.landing-footer__column {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px; }
+  @media only screen and (min-width: 720px) {
+    .landing-footer__column {
+      text-align: left;
+      margin-top: 0; }
+      .landing-footer__column:first-of-type {
+        width: 315px; }
+      .landing-footer__column:nth-of-type(2) {
+        width: 230px; }
+      .landing-footer__column:last-of-type {
+        width: 170px; } }
+  .landing-footer__column .text-with-icon {
+    margin-bottom: 0;
+    justify-content: center; }
+    .landing-footer__column .text-with-icon:last-of-type {
+      margin-bottom: 0; }
+    @media only screen and (min-width: 720px) {
+      .landing-footer__column .text-with-icon {
+        justify-content: flex-start;
+        margin-bottom: 20px; } }
+  .landing-footer__column i {
+    width: 25px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    line-height: 1.4; }
+    .landing-footer__column i.fa-envelope {
+      font-size: 13px;
+      line-height: 2; }
+  .landing-footer__column.stay-connected i {
+    font-size: 2rem; }
+
+.landing-footer__column-content {
+  line-height: 1.7;
+  padding: 0 10px; }
+  @media only screen and (min-width: 720px) {
+    .landing-footer__column-content {
+      margin-top: 10px;
+      padding: 0; } }
+
+.landing-footer__bottom-links {
+  margin-top: 40px; }
+  .landing-footer__bottom-links li {
+    display: inline-block;
+    margin-right: 35px; }
+
+/*# sourceMappingURL=page-footer.css.map */

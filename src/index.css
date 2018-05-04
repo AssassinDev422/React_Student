@@ -1,0 +1,35 @@
+html {
+  font-size: 50%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
+  @media only screen and (min-width: 720px) {
+    html {
+      font-size: 62.5%; } }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #013e6a;
+  letter-spacing: 0.3px; }
+
+.container {
+  width: 1024px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 720px) {
+    .container {
+      width: 100%; } }
+
+.ui.selection.dropdown .menu {
+  max-height: 200px; }
+  .ui.selection.dropdown .menu > .item {
+    font-size: medium;
+    font-weight: 400; }
+
+/*# sourceMappingURL=index.css.map */
